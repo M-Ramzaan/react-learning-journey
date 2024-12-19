@@ -2,6 +2,7 @@
 //Section Name = JavaScript Refresher
 //Date =  19-Dec-2024
 //Video Num & Topic Name = 05. import & export
+
 //1st way to import (Name Import)
 
 //import { apiKey } from "./utils.js";
@@ -28,3 +29,37 @@
 
 // import { myWifeName as myBestFriend } from "./utils.js";
 // console.log(myBestFriend); //Kanwal
+
+//Video Num & Topic Name = 06. Revisiting Variables & Values
+
+// let userMessage = "How are you.";
+// console.log(userMessage);
+// userMessage = "Hello World!";
+// console.log(userMessage);
+
+// const myName = "Muhammad Ramzan Akram";
+// console.log(myName);
+//myName = "Kamal"; //Variable declare with const cant update to other name this can be done by using let.
+
+//Video Num & Topic Name = 07. Revisiting Operators
+//Operators like NNSSBBU
+// console.log(10 + 5);
+// console.log(10 === 5);
+// console.log(10 > 5);
+
+//Video Num & Topic Name = 08. Revisiting Functions & Parameters
+
+function createGreetings(userName, userMessage = "How are you.") {
+  //   console.log(userName);
+  //   console.log(userMessage);
+  return "Hi i am " + userName + "," + " " + userMessage + ".";
+}
+
+const greetings1 = createGreetings(
+  "Muhammad Ramzan Akram",
+  "what are you doing."
+);
+console.log(greetings1);
+
+const greetings2 = createGreetings("Mirha", "Papa i am studying.");
+console.log(greetings2);
