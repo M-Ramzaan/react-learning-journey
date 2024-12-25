@@ -49,17 +49,56 @@
 
 //Video Num & Topic Name = 08. Revisiting Functions & Parameters
 
-function createGreetings(userName, userMessage = "How are you.") {
-  //   console.log(userName);
-  //   console.log(userMessage);
-  return "Hi i am " + userName + "," + " " + userMessage + ".";
-}
+// function createGreetings(userName, userMessage = "How are you.") {
+//   //   console.log(userName);
+//   //   console.log(userMessage);
+//   return "Hi i am " + userName + "," + " " + userMessage + ".";
+// }
 
-const greetings1 = createGreetings(
-  "Muhammad Ramzan Akram",
-  "what are you doing."
-);
-console.log(greetings1);
+// const greetings1 = createGreetings(
+//   "Muhammad Ramzan Akram",
+//   "what are you doing."
+// );
+// console.log(greetings1);
 
-const greetings2 = createGreetings("Mirha", "Papa i am studying.");
-console.log(greetings2);
+// const greetings2 = createGreetings("Mirha", "Papa i am studying.");
+// console.log(greetings2);
+
+//Video Num & Topic Name = 09. Arrow Functions
+
+// export default (userName, message) => {
+//   console.log("Hello");
+//   return userName + message;
+// };
+
+//Video Num & Topic Name = 11. Revisiting Objects & Classes
+
+//Object
+
+// const user = {
+//   name: "Ramzan",
+//   age: 34,
+//   greet() {
+//     console.log("Hello");
+//     console.log(this.name);
+//   },
+// };
+
+// console.log(user.age);
+// user.greet();
+
+// //Class
+
+// class User {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   greet() {
+//     console.log("Hi!");
+//   }
+// }
+
+// const user1 = new User("Mirha", 2.5);
+// console.log(user1);
